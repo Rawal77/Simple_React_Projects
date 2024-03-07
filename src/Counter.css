@@ -1,0 +1,27 @@
+.counter {
+  text-align: center;
+  padding: 20px;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+span {
+  font-size: 24px;
+  font-weight: bold;
+}
