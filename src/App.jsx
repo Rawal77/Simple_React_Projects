@@ -1,5 +1,6 @@
 import Counter from "./Counter";
 import GenerateRandomColor from "./GenerateRandomColor";
+import MultiStepProgress from "./MultiStepProgress";
 import ScrollToBottomButton from "./ScrollToBottomButton";
 import ScrollToTopButton from "./ScrollToTopButton";
 import Tabs from "./Tabs";
@@ -16,7 +17,8 @@ function App() {
   //     <ScrollToTopButton></ScrollToTopButton>
   //   </>
   // );
-  return <Counter></Counter>;
+  // return <Counter></Counter>;
+  return <MultiStepProgress></MultiStepProgress>;
 }
 
 export default App;
