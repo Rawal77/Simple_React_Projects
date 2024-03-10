@@ -5,6 +5,7 @@ import GenerateRandomQuote from "./GenerateRandomQuote";
 import ScrollToBottomButton from "./ScrollToBottomButton";
 import ScrollToTopButton from "./ScrollToTopButton";
 import Tabs from "./Tabs";
+import DateNavigation from "./DateNavigation";
 
 function App() {
   // return <GenerateRandomColor></GenerateRandomColor>;
@@ -20,7 +21,8 @@ function App() {
   // );
   // return <Counter></Counter>;
   // return <MultiStepProgress></MultiStepProgress>;
-  return <GenerateRandomQuote></GenerateRandomQuote>;
+  // return <GenerateRandomQuote></GenerateRandomQuote>;
+  return <DateNavigation></DateNavigation>;
 }
 
 export default App;
