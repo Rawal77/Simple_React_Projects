@@ -6,6 +6,7 @@ import ScrollToBottomButton from "./ScrollToBottomButton";
 import ScrollToTopButton from "./ScrollToTopButton";
 import Tabs from "./Tabs";
 import DateNavigation from "./DateNavigation";
+import SimpleToDo from "./SimpleToDo";
 
 function App() {
   // return <GenerateRandomColor></GenerateRandomColor>;
@@ -22,7 +23,8 @@ function App() {
   // return <Counter></Counter>;
   // return <MultiStepProgress></MultiStepProgress>;
   // return <GenerateRandomQuote></GenerateRandomQuote>;
-  return <DateNavigation></DateNavigation>;
+  // return <DateNavigation></DateNavigation>;
+  return <SimpleToDo></SimpleToDo>;
 }
 
 export default App;
