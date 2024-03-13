@@ -23,8 +23,8 @@ function App() {
   // return <Counter></Counter>;
   // return <MultiStepProgress></MultiStepProgress>;
   // return <GenerateRandomQuote></GenerateRandomQuote>;
-  // return <DateNavigation></DateNavigation>;
-  return <SimpleToDo></SimpleToDo>;
+  return <DateNavigation></DateNavigation>;
+  // return <SimpleToDo></SimpleToDo>;
 }
 
 export default App;
