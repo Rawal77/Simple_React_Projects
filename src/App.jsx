@@ -20,10 +20,10 @@ function App() {
   //     <ScrollToTopButton></ScrollToTopButton>
   //   </>
   // );
-  // return <Counter></Counter>;
+  return <Counter></Counter>;
   // return <MultiStepProgress></MultiStepProgress>;
   // return <GenerateRandomQuote></GenerateRandomQuote>;
-  return <DateNavigation></DateNavigation>;
+  // return <DateNavigation></DateNavigation>;
   // return <SimpleToDo></SimpleToDo>;
 }
 
