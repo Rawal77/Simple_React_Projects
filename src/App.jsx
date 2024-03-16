@@ -7,6 +7,7 @@ import ScrollToTopButton from "./ScrollToTopButton";
 import Tabs from "./Tabs";
 import DateNavigation from "./DateNavigation";
 import SimpleToDo from "./SimpleToDo";
+import Popup from "./Popup";
 
 function App() {
   // return <GenerateRandomColor></GenerateRandomColor>;
@@ -24,7 +25,8 @@ function App() {
   // return <MultiStepProgress></MultiStepProgress>;
   // return <GenerateRandomQuote></GenerateRandomQuote>;
   // return <DateNavigation></DateNavigation>;
-  return <SimpleToDo></SimpleToDo>;
+  // return <SimpleToDo></SimpleToDo>;
+  return <Popup></Popup>;
 }
 
 export default App;
