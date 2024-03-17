@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Popup.css";
 
 export default function Popup() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +15,6 @@ export default function Popup() {
         <div className="popup">
           <div className="popup-content">
             <h2>This is a Popup</h2>
-            <p>Popup content goes here.</p>
             <button onClick={togglePopup}>Close</button>
           </div>
         </div>
