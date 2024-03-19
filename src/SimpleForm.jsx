@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "./Greeting.css";
-export default function Greeting() {
+import "./SimpleForm.css";
+export default function SimpleForm() {
   const [name, setName] = useState("");
   const handleChange = event => {
     setName(event.target.value);
