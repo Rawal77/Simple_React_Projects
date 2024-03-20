@@ -8,6 +8,7 @@ import Tabs from "./Tabs";
 import DateNavigation from "./DateNavigation";
 import SimpleToDo from "./SimpleToDo";
 import Popup from "./Popup";
+import TicTacToe from "./tic-tac-toe";
 
 function App() {
   // return <GenerateRandomColor></GenerateRandomColor>;
@@ -26,7 +27,8 @@ function App() {
   // return <GenerateRandomQuote></GenerateRandomQuote>;
   // return <DateNavigation></DateNavigation>;
   // return <SimpleToDo></SimpleToDo>;
-  return <Popup></Popup>;
+  // return <Popup></Popup>;
+  return <TicTacToe></TicTacToe>;
 }
 
 export default App;
