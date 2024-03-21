@@ -21,4 +21,10 @@
   width: 100px;
   margin-right: -1px;
   margin-top: -1px;
+  background-color: black;
+}
+
+.square:hover {
+  background-color: white;
+  color: black;
 }
