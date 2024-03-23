@@ -48,8 +48,13 @@ export default function TicTacToe() {
     setSquares(Array(9).fill(""));
   }
   useEffect(() => {
-    if (!getWinner(squares) && squares.every(item => item != "")) {
-      setSquares("This is a draw? Restart the game");
+    if (
+      !getWinner(squares) &&
+      Array.isArray(squares) &&
+      squares.every(item => item !== "")
+    ) {
+      setStatus(`Its a draw`);
+      setSquares(Array(9).fill(""));
     } else if (getWinner(squares)) {
       setStatus(`Winner is ${getWinner(squares)}`);
     } else {
