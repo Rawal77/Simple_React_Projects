@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Counter from "../Counter";
 import GenerateRandomColor from "../GenerateRandomColor";
+import Home from "../Home";
 import MultiStepProgress from "../MultiStepProgress";
 import GenerateRandomQuote from "../GenerateRandomQuote";
 import ScrollToBottomButton from "../ScrollToBottomButton";
@@ -14,7 +15,8 @@ export default function CmsRoutes() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Counter></Counter>}></Route>
+        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/counter" element={<Counter></Counter>}></Route>
         <Route
           path="/generaterandomcolor"
           element={<GenerateRandomColor></GenerateRandomColor>}></Route>
